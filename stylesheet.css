@@ -61,27 +61,45 @@ a:link {
 }
 
 
-.searchbox {
-	border:5px solid red;
+.search-box {
+	border-radius:5px;
+	float:right;
+	opacity: 0.5;
 }
 
+.magnifyglass {
+	float:right;
+}
 .center-logo {
 	text-align:center;
-	border: 5px solid blue;
 }
 
-.Right-Nav {
-	border: 5px solid green;
+
+.row-nav {
+	padding:10px;
 }
 
-.board-lists {
-	border: 5px solid yellow;
+.boards {
+	display:inline;
+	float:left;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	color:#f6f6f6;
+	font-weight: 700;
 }
 
 .menu {
 	border: 5px solid black;
+	background-color:#edeff0;
 }
 
+.menu ul li {
+	color:#444;
+	border-bottom: 1px solid #e2e4e6;
+	padding: 10px 0;
+	display: block;
+
+}
 .board-menu {
 	border:5px solid black;
 	background-opacity: 0.4;
@@ -107,6 +125,7 @@ ul li {
 
 .top-nav li {
 	float:right;
+	padding-bottom:10px;
 }
 
 .signup {
@@ -124,10 +143,17 @@ ul li {
 	margin-left:10px;
 }
 
+.top-logo img {
+	height: 30px;
+
+}
+
 .board-data {
-	border:5px solid purple;
+	border:1px solid #e2e4e6;
 	background-color: #e2e4e6;
 	padding:7px;
+	width:32%;
+	margin-left:10px;
 }
 
 .board-data div p {
@@ -159,5 +185,4 @@ body {
 div p span {
 
 }
-
 

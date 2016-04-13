@@ -3,34 +3,37 @@
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link rel="stylesheet" href="stylesheet.css">
 </head>
 
 	<body>
 
 		<div class="container-fluid">
-  			<div class="row nav">
+  			<div class="row-nav">
     			<div class="col-sm-3 searchbox">
-    			<p>Searchbox</p>
+                    <div class="boards">Boards</div>
+                    <input type="text" class="search-box" id="usr">
+                    <div><i class="fa fa-search magnifyglass" aria-hidden="true"></i></div>
     			</div>
 
 
     			<div class="col-sm-6 center-logo">
-    			<p>Trello Logo</p>
-    			</div>
+                    <div class="top-logo"><img src="trello-logo-white.png"></div>
+                </div>
 
     			<div class="col-sm-3 Right-Nav">
     				<ul class="top-nav">
-    					<li><a class="btn btn-primary login" href="https://trello.com/signup?returnUrl=%2Fb%2FDnZvFigA%2Fagile-board">Login</a>
-    					<li><a class="btn btn-primary signup" href="https://trello.com/signup?returnUrl=%2Fb%2FDnZvFigA%2Fagile-board">Signup</a>
-    				</li>
-    			</div>
-  			</div><!-- top bar -->
+    					<li><a class="btn btn-primary login" href="https://trello.com/signup?returnUrl=%2Fb%2FDnZvFigA%2Fagile-board">Login</a></li>
+    					<li><a class="btn btn-primary signup" href="https://trello.com/signup?returnUrl=%2Fb%2FDnZvFigA%2Fagile-board">Signup</a></li>
+    			     </ul>
+                </div>
+    		</div>
 
 
-  			<div class="row">
-    			<div class="col-sm-9 board-lists">
 
+  		<div class="row">
+    		<div class="col-sm-9 board-lists">
     				<div class="row">
 						<div class="col-sm-6 board-menu">
 							<ul>
@@ -45,8 +48,9 @@
 					</div>
 
 
-    				<div class="row">
-    					<div class="col-sm-4 board-data">
+    			<div class="row">
+                    <div class="board-data-style">
+    				<div class="col-sm-4 board-data">
     						<div><span class="top-label">Done</span></div>
     						<div><p><span class="purple"></span>Review Tech Partners Page</p></div>
     						<div><p>Make sure sponsors are indicated for Tech Talk</p></div>
@@ -54,7 +58,9 @@
     						<div><p>TBC Webinar: Ship Now, Not Later</p></div>
     						<div><p><span class="pink"></span>1:1 Nancy</p></div>
     						<div><p>Lead Gen Mandrill stats</p></div>
-    					</div>
+                    </div>
+    				</div>
+                        <div class="board-data-style">
     					<div class="col-sm-4 board-data">
     						<div><span class="top-label">Current Sprint</span></div>
     						<div><p><span class="lightblue"></span><span class="limegreen"></span>Going live with server deployment</p></div>
@@ -62,18 +68,31 @@
     						<div><p><img src="boardimage.jpg">IT Solutions Page</p></div>
     						<div><p>Q3 Webinar Content Planning</p></div>
     						<div><p><span class="purple"></span>Email campaign - February</p></div>
+                        </div>
     					</div>
+                        <div class="board-data-style">
     					<div class="col-sm-4 board-data">
     						<div><span class="top-label">In Progress</span></div>
     						<div><p><span class="orange"></span>Android App new landing page</p></div>
     						<div><p>Analytics</p></div>
     						<div><p>Branding guidelines</p></div>
+                        </div>
     					</div>
     				</div>
     			</div><!-- board lists -->
 
     			<div class="col-sm-3 menu">
-    			<p>Menu</p>
+    				<ul>
+    					<li>Menu</li>
+    					<li>Filter Cards</li>
+    					<li>Lauren has enabled self join on this board</li>
+    					<li>Lauren has added this board to inspiring boards</li>
+    					<li>Lauren deleted the Tableau_Software_Logo_Small.png</li>
+    					<li>Lauren made this board visible to the public</li>
+    					<li>Lauren added Lead Gen Mandrill stats to Done</li>
+    					<li>View All Activity.....</li>
+    				</ul>
+
     			</div><!-- menu -->
  			</div><!-- board content -->
 		</div>
